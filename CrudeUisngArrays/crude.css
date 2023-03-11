@@ -1,0 +1,99 @@
+body {
+  background-image: url("bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(241, 63, 122, 0.941);
+}
+.textField {
+  border: 2px solid black;
+  margin: 5px;
+  height: 25px;
+  border-radius: 25px;
+  width: 80%;
+}
+.textField:hover {
+  background-color: palegoldenrod;
+}
+.add {
+  background-color: #33ff33;
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+}
+.add:hover,
+.reset:hover {
+  background-color: white;
+}
+.reset {
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+}
+table,
+tbody {
+  border: 2px solid black;
+  text-align: center;
+  margin: 2px;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.363);
+}
+.myTable .th {
+  background-color: lightgreen;
+}
+.edit {
+  background-color: #33ff33;
+  margin: 2px;
+}
+.del {
+  background-color: red;
+  margin: 2px;
+}
+.edit:hover {
+  background-color: white;
+}
+.del:hover {
+  background-color: white;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px rgb(195, 30, 58);
+  background-color: rgba(245, 245, 245, 0.457);
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+form:hover {
+  border: 5px solid black;
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+#head {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
